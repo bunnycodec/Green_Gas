@@ -1,0 +1,98 @@
+#myFooter {
+    background-color: #3c3d41;
+    color: white;
+    padding-top: 3vh;
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    text-align: center;
+}
+
+#myFooter .footer-copyright p {
+    margin: 1vh;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.6;
+}
+
+#myFooter h5 {
+    font-size: 1.8vh;
+    color: white;
+    font-weight: bold;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+#myFooter .social-networks a {
+    font-size: 3vh;
+    color: #f9f9f9;
+    padding: 1vh;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .instagram:hover {
+    color: #e4405f;
+}
+
+#myFooter .youtube:hover {
+    color: #cd201f;
+}
+
+#myFooter .linkedin:hover {
+    color: #0077B5;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
